@@ -33,7 +33,7 @@ function Download-And-Run($tool) {
 
         if (-not (Test-Path $temp)) { throw "Download failed." }
 
-        Write-Host "🚀 Launching $name..." -ForegroundColor Cyan
+        Write-Host "🚀 Launching $name..." -ForegroundColor DarkYellow
 
         switch ($type) {
             "exe" { Start-Process $temp }
@@ -85,9 +85,9 @@ Architecture: $env:PROCESSOR_ARCHITECTURE
 # ---------------------------
 function Show-Menu {
     Clear-Host
-    Write-Host "==========================================" -ForegroundColor Cyan
+    Write-Host "==========================================" -ForegroundColor DarkYellow
     Write-Host "   BLUE'S MS-OFFICE INSTALLER DASHBOARD"
-    Write-Host "==========================================" -ForegroundColor Cyan
+    Write-Host "==========================================" -ForegroundColor DarkYellow
     Write-Host ""
     Write-Host "These Installer are created by Blue For Big Bro Garry"
     Write-Host "Install Office with just one click...Thank Me Later!"
