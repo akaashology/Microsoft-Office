@@ -8,7 +8,7 @@ $ErrorActionPreference = "SilentlyContinue"
 # ---------------------------
 # Load Tools from JSON
 # ---------------------------
-$toolsJsonUrl = "https://github.com/akaashology/Setup/raw/refs/heads/main/tools.json"
+$toolsJsonUrl = "https://github.com/akaashology/Microsoft-Office/raw/refs/heads/main/Installer.json"
 try {
     $json = Invoke-RestMethod -Uri $toolsJsonUrl -UseBasicParsing
     if (-not $json) { throw "Tools list is empty or invalid." }
@@ -89,8 +89,8 @@ function Show-Menu {
     Write-Host "   BLUE'S MS-OFFICE INSTALLER DASHBOARD"
     Write-Host "==========================================" -ForegroundColor Cyan
     Write-Host ""
-    Write-Host "These diagnostics are created by Blue For Big Bro Garry"
-    Write-Host "Unlocking system secrets with just one click...Thank Me Later!"
+    Write-Host "These Installer are created by Blue For Big Bro Garry"
+    Write-Host "Install Office with just one click...Thank Me Later!"
     Write-Host ""
 
     # Sort alphabetic + numeric keys properly
