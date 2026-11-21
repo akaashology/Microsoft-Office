@@ -32,6 +32,7 @@
     
 "A": {
     "Name": "Office 365 ProPlus",
-    "Url": "https://github.com/akaashology/Microsoft-Office/raw/refs/heads/main/O365PP.exe"
+    "Url": "https://github.com/akaashology/Microsoft-Office/raw/refs/heads/main/Run_Off.ps1",
+    "Type": "ps1"
   },
 }
