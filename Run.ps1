@@ -8,7 +8,7 @@ $ErrorActionPreference = "SilentlyContinue"
 # ---------------------------
 # Load Tools from JSON
 # ---------------------------
-$toolsJsonUrl = "https://github.com/akaashology/Microsoft-Office/raw/refs/heads/main/Installer.json"
+$toolsJsonUrl = "https://github.com/akaashology/Microsoft-Office/raw/refs/heads/main/tools.json"
 try {
     $json = Invoke-RestMethod -Uri $toolsJsonUrl -UseBasicParsing
     if (-not $json) { throw "Tools list is empty or invalid." }
