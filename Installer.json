@@ -1,0 +1,32 @@
+{
+
+"1": {
+    "Name": "Office 13 ProPlus",
+    "Url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe"
+  },
+
+"2": {
+    "Name": "Office 16 ProPlus",
+    "Url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe"
+  },
+
+"3": {
+    "Name": "Office 19 ProPlus",
+    "Url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe"
+  },
+
+"4": {
+    "Name": "Office 21 ProPlus",
+    "Url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe"
+  },
+
+"5": {
+    "Name": "Office 24 ProPlus",
+    "Url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe"
+  },
+
+"6": {
+    "Name": "Office 365 ProPlus",
+    "Url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe"
+  }
+}
